@@ -1,5 +1,5 @@
 {
-  // Javascript
+  // JavaScript
 
   // old : var // 💩(Hoisting 등 많은 문제가 있다.)
   // var age = 5;
@@ -18,7 +18,7 @@
 
 {
   /*
-  Javascript
+  JavaScript
 
   * Primitive(7) : number, string, boolean, bigint, symbol, null, undefined
   * Object : function, array, ....
@@ -71,7 +71,7 @@
   }
   let neverEnding: never; //💩
 
-  //- object : Primitive type을 제외한 모든 Object type을 할당할 수 있다.
+  //- object : Primitive type을 제외한 모든 Object type을 할당할 수 있다. but // 💩
   let obj: object;
   function acceptSomeObject(obj: object) {}
   acceptSomeObject({ name: 'ellie' });

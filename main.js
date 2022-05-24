@@ -1,11 +1,11 @@
 console.log('Hello World~!');
 // -> js, node로 실행 가능
 var Car = /** @class */ (function () {
-    function Car() {
-        this.engine = 1;
-    }
-    return Car;
-}());
+  function Car() {
+    this.engine = 1;
+  }
+  return Car;
+})();
 // -> ts, node로 실행 불가
 // 또한 브라우저는 ts를 바로 실행할 수 없다.
 // tsc main.ts로 main.js로 변환시켜야 실행 가능.
